@@ -2,7 +2,7 @@
   "name": "يلاااا بيناا نلعب",
   "short_name": "يلاااا بيناا",
   "description": "لعبة جماعية تفاعلية - دور العجلة واهزم لعبة الحياة",
-  "start_url": "wheel-game.html",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f0f4ff",

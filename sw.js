@@ -1,6 +1,6 @@
 var CACHE_NAME = 'wheel-game-v2';
 var ASSETS = [
-  'wheel-game.html',
+  '/',
   'manifest.json',
   'icon-192.jpg',
   'icon-512.jpg',
@@ -45,7 +45,7 @@ self.addEventListener('fetch', function(event) {
         return networkResponse;
       }).catch(function() {
         if (event.request.mode === 'navigate') {
-          return caches.match('wheel-game.html');
+          return caches.match('/');
         }
         return new Response('غير متصل حاليا', { status: 503 });
       });
