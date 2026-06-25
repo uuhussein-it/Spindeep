@@ -1,0 +1,28 @@
+{
+  "name": "يلاااا بيناا نلعب",
+  "short_name": "يلاااا بيناا",
+  "description": "لعبة جماعية تفاعلية - دور العجلة واهزم لعبة الحياة",
+  "start_url": "wheel-game.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f0f4ff",
+  "theme_color": "#4f46e5",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment"],
+  "prefer_related_applications": false
+}
